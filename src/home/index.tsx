@@ -1,11 +1,21 @@
-import React from 'react';
+import React from "react";
+
+// import logo from "@/public/logo192.png";
 
 function Home() {
-    return (
-        <div className="Home">
-
+  return (
+    <div className="Home">
+      <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div className="shrink-0">
+          <img className="h-12 w-12" src="" alt="ChitChat Logo" />
         </div>
-    );
+        <div>
+          <div className="text-xl font-medium text-black">ChitChat</div>
+          <p className="text-slate-500">You have a new message!</p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Home;
